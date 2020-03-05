@@ -18,6 +18,7 @@ public class LogoActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_logo);
+
 		RecyclerView teamsView = findViewById(R.id.rv_teams);
 
 		List<TeamLogo> teams = new ArrayList<>();
